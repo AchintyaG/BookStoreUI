@@ -83,7 +83,7 @@ code {
 display: flex;
 color: #ffffff;
 gap: 10px;
-margin: 0% 2%;
+margin: 0px 50px;
 justify-content: space-between;
 align-items: center;
 }
@@ -105,8 +105,10 @@ align-items: center;
   margin-top: 1%;
 }
 .Book-item {
-  display: flex;
-  margin: 20px;
+  width: 489px;
+height: 272px;
+display: flex; 
+flex-shrink: 0;
 }
 .book-image {
   width: 160px;
